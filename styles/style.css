@@ -48,7 +48,7 @@ h1 {
   color: var(--cyan);
 }
 
-h3 {
+h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
@@ -68,7 +68,7 @@ main {
   padding: 2.5rem 2.4rem;
 }
 
-h2 {
+h3 {
   font-size: 1.7rem;
   font-weight: 700;
   color: var(--white);
@@ -123,7 +123,7 @@ button:active {
 }
 
 /* SECTION */
-section {
+footer {
   background-color: var(--cyan-transparent);
   border-radius: 0 0 0.5rem 0.5rem;
   padding: 2.4rem;
