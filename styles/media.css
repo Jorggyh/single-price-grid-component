@@ -1,0 +1,45 @@
+@media screen and (min-width: 720px) {
+  .container {
+    display: grid;
+    grid-template-areas:
+      "cardA cardA"
+      "cardB cardC";
+    max-width: 63.5rem;
+    grid-template-columns: 50% 50%;
+    border-radius: 0.8rem;
+  }
+
+  header {
+    grid-area: cardA;
+    padding: 4.1rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    padding: 2.5rem 0 1rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  main {
+    grid-area: cardB;
+    border-bottom-left-radius: 0.8rem;
+  }
+
+  section {
+    grid-area: cardC;
+    border-radius: 0 0 0.8rem 0;
+  }
+
+  main,
+  section {
+    padding: 4.1rem 4.1rem 3.9rem;
+  }
+}
